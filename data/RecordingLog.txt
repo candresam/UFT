@@ -1,0 +1,58 @@
+[API Trapper      ( 830:25cc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2d18: 528)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3eb4:470c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3eb4:2644)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3eb4:2644)] Load Network Traffic Analyzers:
+[Network Analyzer (3eb4:2644)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3eb4:2644)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3eb4:2644)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3eb4:2644)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3eb4:2644)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3eb4:2644)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3eb4:2644)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3eb4:2644)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3eb4:13e0)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 142.251.132.131:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 142.250.78.138:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3eb4:2170)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 74.125.196.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3eb4:2170)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3eb4:418c)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3eb4:418c)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3eb4:13e0)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=122"   
+[Network Analyzer (3eb4:13e0)]   (Sid:  1) Client -> Server @ : 475 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3eb4:13e0)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3eb4:358c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3eb4:358c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 142.250.78.163:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 74.125.136.188:5228   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3eb4:2934)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3eb4:2934)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3eb4:13e0)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (3eb4:13e0)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3eb4:13e0)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3eb4:13e0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (3eb4:296c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3eb4:296c)] SSLAccept(ssl_id = 2498435874016 = 00000245B661FCE0) Failed, ctx = 00000245B6626430, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3eb4:296c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[API Trapper      (1c14:36c8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3eb4:13e0)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 142.250.78.106:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3eb4:2644)] Address lookup for CO007 = 192.168.189.1
+[Network Analyzer (3eb4:2644)] Request Connection: Remote Server @ 142.251.132.142:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3eb4:4144)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3eb4:4144)] SSLAccept(ssl_id = 2498435363168 = 00000245B65A3160) Failed, ctx = 00000245B6626430, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3eb4:4144)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3eb4:2e90)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3eb4:2e90)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3eb4:13e0)]   (Sid:  6) Connection Terminated (by Client)

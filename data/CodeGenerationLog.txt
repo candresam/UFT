@@ -1,0 +1,68 @@
+****** Start Log Message ******
+Web Recorder version : 2024.1.0.667 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2024.1.0.667
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 18 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=122 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: SMChYyMDI0MDIyOS0xODAxMjguNzM2MDAwEggIABADGHogAA==#3MbnUFvi5ww=
+A-IM: x-bm,gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+$$$$$$ Request Header For Transaction With Id 18 Ended $$$$$$
+
+****** Response Header For Transaction With Id 18 ******
+HTTP/1.1 304 Not Modified
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Date: Fri, 01 Mar 2024 17:09:07 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 18 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 18 ****** (Location Flag : tFlagInsertEnd, Location ID : 18)
+	web_url("seed",
+		"URL=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=122",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 18 Ended $$$$$$
+
